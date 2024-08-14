@@ -1,1 +1,0 @@
-import{_ as t,v as s,t as n,x as e}from"./BAv8q_Ew.js";const o={},c=e("p",null,"Hi 我是Lucas",-1),_=e("p",null,"一名 前端工程師",-1),a=e("p",null,"也是一名帥哥",-1),l=[c,_,a];function r(d,i){return n(),s("div",null,l)}const p=t(o,[["render",r]]);export{p as default};
