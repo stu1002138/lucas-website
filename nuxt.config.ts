@@ -1,6 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  app: {
+    baseURL: process.env.NODE_ENV === 'production' ? '/lucas-website/' : '/',
+    buildAssetsDir: '/static/'
+  },
   ssr: true,
   modules: ['@nuxt/content', '@unocss/nuxt', '@nuxt/ui', '@nuxtjs/i18n'],
   i18n: {
