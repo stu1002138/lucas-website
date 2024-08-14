@@ -1,0 +1,35 @@
+{
+  "welcome": "Hello, World! 🌍",
+  "header": {
+    "tech": "Tech",
+    "travel": "Travel",
+    "food": "Food",
+    "techDev": "TechXDev",
+    "about": "About",
+    "archives": "Archives"
+  },
+  "home": {
+    "hi": "Hi! I'm",
+    "introduce1": "I am a web frontend developer.",
+    "introduce2": "In my free time, I enjoy searching for delicious food and traveling around.",
+    "introduce3": "Occasionally, I share information about technology and development!",
+    "introduceDetail1": "I am a frontend developer with { year } years of experience and a degree in Computer Science. During my university years, I focused on Android development, but my passion for frontend led me to transition into web frontend development.",
+    "introduceDetail2": "I am committed to becoming a developer who values quality and performance.",
+    "introduceDetail3": "Outside of work, I continuously learn technical knowledge and stay updated on the latest frontend trends.",
+    "introduceDetail4": "I also love traveling and exploring new cuisines. I welcome like-minded enthusiasts to connect and share experiences.",
+    "careerJourney": "My Career Journey"
+  },
+  "archives": {
+    "20240814": {
+      "title": "Putting Family First: The Decision to Resign and What It Taught Me"
+    }
+  },
+  "jobInfo": {
+    "owlting": "Owlting",
+    "jobTitle": "Job Title:",
+    "frontend": "Frontend Developer",
+    "envotions": "Envotions Technology",
+    "software": "Software Engineer",
+    "gigabyte": "Gigabyte"
+  }
+}
