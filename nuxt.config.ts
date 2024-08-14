@@ -2,7 +2,16 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
-    baseURL: process.env.NODE_ENV === 'production' ? '/lucas-website/' : '/',
+    head: {
+      title: `Home | Lucas's Blog`,
+      meta: [
+        { name: "description", content: '一名前端工程師的部落格，紀錄著美食旅遊以及學習的技術' },
+        { property: 'og:title', content: 'Nuxt 3 Playground' },
+        { property: 'og:url', content: 'https://www.lucas-chen.website/' },
+        { property: 'og:description', content: '一名前端工程師的部落格，紀錄著美食旅遊以及學習的技術' },
+      ],
+    },
+    baseURL: '/',
     buildAssetsDir: '/static/'
   },
   ssr: true,
