@@ -6,10 +6,23 @@ export default defineNuxtConfig({
       title: `Home | Lucas's Blog`,
       meta: [
         { name: "description", content: '一名前端工程師的部落格，紀錄著美食旅遊以及學習的技術' },
-        { property: 'og:title', content: 'Nuxt 3 Playground' },
+        { property: 'og:title', content: `Home | Lucas's Blog` },
         { property: 'og:url', content: 'https://www.lucas-chen.website/' },
         { property: 'og:description', content: '一名前端工程師的部落格，紀錄著美食旅遊以及學習的技術' },
       ],
+      script: process.env.NODE_ENV === 'production' ? [
+        { src: 'https://www.googletagmanager.com/gtag/js?id=G-5ZTGLY54CE"' },
+        {
+          innerHTML: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-5ZTGLY54CE');
+          `,
+          type: 'text/javascript',
+          charset: 'utf-8',
+        },
+      ] : [],
     },
     baseURL: '/',
     buildAssetsDir: '/static/'
