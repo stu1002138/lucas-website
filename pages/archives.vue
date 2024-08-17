@@ -2,7 +2,7 @@
   <main>
     <h2 class="text-center text-2xl font-bold">{{ $t('header.archives') }}</h2>
     <section class="container mx-auto py-10">
-      <ul class="pl-[100px] flex flex-col gap-3">
+      <ul class="pl-[100px] max-md:px-4 flex flex-col gap-3">
         <li class="archives-item">
           <a :href="localePath('/note/2024/08/14/family-first-decision')" class="text-lg max-md:text-base text-black hover:text-blue">
             <p class="text-[#808080]">2024.08.07</p>
