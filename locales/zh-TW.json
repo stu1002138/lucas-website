@@ -33,6 +33,13 @@
     "frontend": "前端工程師",
     "envotions": "智誠科技",
     "software": "軟體工程師",
-    "gigabyte": "技嘉科技"
+    "gigabyte": "技嘉科技",
+    "experienceAt": "經驗內容：",
+    "skill": "技術使用：",
+    "workContentGigabyte": "初期負責開發與維護內部Android APP及Java後端服務，後因應需求轉向前端開發，主要使用Vue 2開發內部CMS平台。參與e7line電商網站重構，負責將.NET網站改為前後端分離架構，並使用Nuxt 2重構前端，著重於SEO優化。",
+    "skillGigabyte": "Android、Java、MySQL、Vue 2、Nuxt 2",
+    "workContentEnvotions": "協助主網站的前後端分離開發，並開發活動及子網站。主要使用Nuxt 3和Vue 3進行開發。",
+    "workContentOwlting": "協助PayNow系統的翻修，與後端合作建立官方網站及前後端分離的CMS系統，並開發支付SDK。",
+    "project": "網站："
   }
 }

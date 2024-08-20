@@ -25,20 +25,29 @@
         <div class="career-item">
           <img class="w-12"src="@/assets/img/owlting-logo.jpeg" alt="owlting">
           <p class="text-lg">{{ $t('jobInfo.owlting') }}</p>
-          <p><span>{{ $t('jobInfo.jobTitle') }}</span>{{ $t('jobInfo.frontend') }}</p>
+          <p><span class="font-bold">{{ $t('jobInfo.jobTitle') }}</span>{{ $t('jobInfo.frontend') }}</p>
           <p>2023-9~2024-08</p>
+          <p><span class="font-bold">{{ $t('jobInfo.experienceAt') }}</span>{{ $t('jobInfo.workContentOwlting') }}</p>
+          <p><span class="font-bold">{{ $t('jobInfo.skill') }}</span>Nuxt 3、Vue 3、Naive UI、Tailwind、ECharts、Headless UI、ESLint、TypeScript、Nuxt Security、Cypress、VitePress</p>
+          <p><span class="font-bold">{{ $t('jobInfo.project') }}</span><a class="text-blue underline" href="https://gateway.paynow.com.tw/">PayNow Official Website</a>、CMS Website 、<a class="text-blue underline" href="https://docs.paynow.com.tw/component/">PayNow SDK</a></p>
         </div>
         <div class="career-item">
           <img class="w-12"src="@/assets/img/envotion-logo.jpeg" alt="envotion">
           <p class="text-lg">{{ $t('jobInfo.envotions') }}</p>
-          <p><span>{{ $t('jobInfo.jobTitle') }}</span>{{ $t('jobInfo.frontend') }}</p>
+          <p><span class="font-bold">{{ $t('jobInfo.jobTitle') }}</span>{{ $t('jobInfo.frontend') }}</p>
           <p>2022-6~2023-09</p>
+          <p><span class="font-bold">{{ $t('jobInfo.experienceAt') }}</span>{{ $t('jobInfo.workContentEnvotions') }}</p>
+          <p><span class="font-bold">{{ $t('jobInfo.skill') }}</span>Vue 3, Nuxt 3、BootStrap</p>
+          <p><span class="font-bold">{{ $t('jobInfo.project') }}</span><a class="text-blue underline" href="https://www.1111.com.tw/">1111 Official Website</a>、<a class="text-blue underline" href="https://guide.1111.com.tw/">新職點</a></p>
         </div>
         <div class="career-item">
           <img class="w-12"src="@/assets/img/gigabyte-logo.jpg" alt="gigabyte">
           <p class="text-lg">{{ $t('jobInfo.gigabyte') }}</p>
-          <p><span>{{ $t('jobInfo.jobTitle') }}</span>{{ $t('jobInfo.software') }}</p>
+          <p><span class="font-bold">{{ $t('jobInfo.jobTitle') }}</span>{{ $t('jobInfo.software') }}</p>
           <p>2019-8~2022-06</p>
+          <p><span class="font-bold">{{ $t('jobInfo.experienceAt') }}</span>{{ $t('jobInfo.workContentGigabyte') }}</p>
+          <p><span class="font-bold">{{ $t('jobInfo.skill') }}</span>Android、Java、MySQL、Sprint Boot、Vue 2、Nuxt 2、BootStrap</p>
+          <p><span class="font-bold">{{ $t('jobInfo.project') }}</span><a class="text-blue underline" href="https://app.gigabyte.com.tw/Gmarket/Portal/">Gigabyte Android App</a>、CMS Website 、<a class="text-blue underline" href="https://www.e7line.com/">e7line</a></p>
         </div>
       </div>
     </section>
@@ -88,7 +97,7 @@ const { t } = useI18n()
   @apply max-md:before:left-10 max-md:pl-10 max-md:before:right-auto;
 }
 .career-item {
-  @apply odd:after:content-[''] odd:after:absolute odd:after:top-1/2 odd:after:right-0 odd:after:w-[20px] odd:after:h-[2px] odd:after:bg-[#808080];
+  @apply px-10 odd:after:content-[''] odd:after:absolute odd:after:top-1/2 odd:after:right-0 odd:after:w-[20px] odd:after:h-[2px] odd:after:bg-[#808080];
   @apply even:before:content-[''] even:before:absolute even:before:top-1/2 even:before:left-0 even:before:w-[20px] even:before:h-[2px] even:before:bg-[#808080];
   @apply w-1/4 max-lg:w-1/2 max-md:w-full odd:ml-[25%] odd:max-lg:ml-0 odd:max-lg:pl-4 even:max-md:ml-[0%] even:ml-[50%] even:max-md:pl-10 odd:max-md:pl-10 even:pl-[100px] even:mr-[25%] max-md:even:mr-[0%] relative py-4;
   @apply max-md:before:content-[''] max-md:before:h-[2px] max-md:before:left-0 max-md:before:bg-[#808080] max-md:before:top-1/2 max-md:after:!w-0 max-md:before:!w-[20px] max-md:before:inline-block max-md:before:absolute;

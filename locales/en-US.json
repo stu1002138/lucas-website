@@ -33,6 +33,12 @@
     "frontend": "Frontend Developer",
     "envotions": "Envotions Technology",
     "software": "Software Engineer",
-    "gigabyte": "Gigabyte"
+    "gigabyte": "Gigabyte",
+    "experienceAt": "Experience At：",
+    "skill": "Technologies Used：",
+    "workContentGigabyte": "Initially responsible for developing and maintaining internal Android apps and Java backend services. Later transitioned to frontend development due to increasing web demand, primarily working on the internal CMS platform using Vue 2. Participated in the redevelopment of the e7line e-commerce website by converting the original .NET site into a frontend-backend separated architecture using Nuxt 2, focusing on SEO optimization.",
+    "workContentEnvotions": "Assisted in the frontend-backend separation of the main website, and developed activity and sub-websites. Primarily used Nuxt 3 and Vue 3 for development.",
+    "workContentOwlting": "Collaborated on revamping the PayNow system, working with the backend to build an official website and a frontend-backend separated CMS system. Also assisted in developing payment SDKs.",
+    "project": "Projects："
   }
 }
