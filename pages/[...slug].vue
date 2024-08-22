@@ -10,6 +10,37 @@
         </template>
       </ContentDoc>
     </div>
+    <div v-if="isDark">
+      <Script  src="https://utteranc.es/client.js"
+        repo="stu1002138/lucas-website"
+        issue-term="url"
+        theme="dark-blue"
+        crossorigin="anonymous"
+        async>
+      </Script>
+    </div>
+    <div v-else>
+      <Script src="https://utteranc.es/client.js"
+        repo="stu1002138/lucas-website"
+        issue-term="url"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+      </Script>
+    </div>
+    
     
   </main>
 </template>
+
+<script setup lang="ts">
+const colorMode = useColorMode()
+const isDark = computed({
+  get () {
+    return colorMode.value === 'dark'
+  },
+  set () {
+    colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark'
+  }
+})
+</script>
