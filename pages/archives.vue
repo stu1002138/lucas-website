@@ -9,6 +9,12 @@
             <h3>{{ $t('archives.20240814.title') }}</h3>
           </a>
         </li>
+        <li class="archives-item">
+          <a :href="localePath('/travel/2023/11/trip-to-macau')" class="text-lg max-md:text-base text-black hover:text-blue">
+            <p class="text-[#808080]">2023.11.23</p>
+            <h3>{{ $t('archives.20231123.title') }}</h3>
+          </a>
+        </li>
       </ul>
     </section>
   </main>
