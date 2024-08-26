@@ -1,28 +1,31 @@
 <template>
   <main>
     <h2 class="text-center text-2xl font-bold">{{ $t('header.archives') }}</h2>
-    <section class="container mx-auto py-10">
-      <ul class="pl-[100px] max-md:px-4 flex flex-col gap-3">
-        <li class="archives-item">
-          <a :href="localePath('/note/2024/08/14/family-first-decision')" class="text-lg max-md:text-base text-black hover:text-blue">
-            <p class="text-[#808080]">2024.08.07</p>
-            <h3>{{ $t('archives.20240814.title') }}</h3>
-          </a>
-        </li>
-        <li class="archives-item">
-          <a :href="localePath('/travel/2023/11/trip-to-macau')" class="text-lg max-md:text-base text-black hover:text-blue">
-            <p class="text-[#808080]">2023.11.23</p>
-            <h3>{{ $t('archives.20231123.title') }}</h3>
-          </a>
-        </li>
-      </ul>
+    <section class="max-w-[800px] mx-auto py-10">
+      <ContentList v-slot="{ list }">
+        <template v-for="article in list" :key="article._path">
+          <nuxt-link v-if="(locale === 'en' && article._path?.includes('/en')) || (locale !== 'en' && !article._path?.includes('/en') && article._path !== '/')" :to="article._path" class="my-5 border border-gray w-full flex flex-col px-4 py-2 rounded-2xl gap-2">
+            <h2 class="text-lg max-md:text-base  hover:text-blue" :class="isDark ? 'text-white' : 'text-black'">{{ article.title }}</h2>
+            <p class="text-gray">{{ article.description }}</p>
+          </nuxt-link>
+        </template>
+      </ContentList>
     </section>
   </main>
 </template>
 
-<script lang="ts" setup>
-const localePath = useLocalePath()
+<script setup lang="ts">
+import { onMounted, ref, watch } from 'vue';
+const { locale } = useI18n()
+const colorMode = useColorMode()
+const isDark = ref(true)
 
+onMounted(() => {
+  watch(() => colorMode.value, () => {
+    if (colorMode.value === 'dark')isDark.value = true
+    else isDark.value = false
+  }, { immediate: true })
+})
 </script>
 
 <style scoped>

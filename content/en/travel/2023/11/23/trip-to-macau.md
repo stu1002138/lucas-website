@@ -1,6 +1,6 @@
 ---
 title: "Three Days and Two Nights in Macau | Lucas's Blog"
-description: 'Explore a three-day, two-night trip to Macau: savoring food, appreciating cultural heritage, and experiencing the charm of casinos.'
+description: '2023-11-23 Explore a three-day, two-night trip to Macau: savoring food, appreciating cultural heritage, and experiencing the charm of casinos.'
 ---
 
 # [Three Days and Two Nights in Macau]{.text-[32px] .font-bold}

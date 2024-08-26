@@ -1,6 +1,6 @@
 ---
 title: "為家人停下腳步：因家人而辭職的思考與感悟 | Lucas's Blog"
-description: '記錄一下工作五年後，第一次裸辭，以及思考家人與職場平衡。'
+description: '2024-08-14 記錄一下工作五年後，第一次裸辭，以及思考家人與職場平衡。'
 ---
 
 # [為家人停下腳步：因家人而辭職的思考與感悟]{.text-xl .font-bold}
@@ -64,3 +64,8 @@ description: '記錄一下工作五年後，第一次裸辭，以及思考家人
 <br>
 
 >**The right decisions are always the hardest to make it. But they must be made in order to live the life you deserve.**
+
+
+<br>
+
+::message-board

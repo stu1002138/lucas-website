@@ -1,6 +1,6 @@
 ---
 title: "Putting Family First: The Decision to Resign and What It Taught Me  | Lucas's Blog"
-description: 'Documenting my first time quitting a job after five years of work, reflecting on the balance between family and career.'
+description: '2024-08-14 Documenting my first time quitting a job after five years of work, reflecting on the balance between family and career.'
 ---
 
 # [Putting Family First: The Decision to Resign and What It Taught Me]{.text-xl .font-bold}

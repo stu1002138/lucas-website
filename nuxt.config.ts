@@ -24,9 +24,9 @@ export default defineNuxtConfig({
         },
         {
           innerHTML: `(function(c,l,a,r,i,t,y){
-            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
           })(window, document, "clarity", "script", "noiquocv9p");`,
           type: 'text/javascript',
           charset: 'utf-8',
@@ -40,7 +40,7 @@ export default defineNuxtConfig({
   modules: ['@nuxt/content', '@unocss/nuxt', '@nuxt/ui', '@nuxtjs/i18n'],
   i18n: {
     lazy: true,
-    strategy: 'prefix_and_default',
+    strategy: 'prefix_except_default',
     defaultLocale: 'tw',
     locales: [{
       code: 'en',
