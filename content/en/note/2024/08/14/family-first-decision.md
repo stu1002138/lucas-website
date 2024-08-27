@@ -4,6 +4,12 @@ description: '2024-08-14 Documenting my first time quitting a job after five yea
 ---
 
 # [Putting Family First: The Decision to Resign and What It Taught Me]{.text-xl .font-bold}
+
+::keywords
+---
+keywords: Work-Life Balance,Resignation Reflection, Family Health, Caring for Family,Personal Growth,Resignation Experience
+---
+::
 <br>
 
 The sudden news of my family member being diagnosed with a lung tumor.

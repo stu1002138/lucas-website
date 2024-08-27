@@ -4,6 +4,12 @@ description: '2023-11-23 Explore a three-day, two-night trip to Macau: savoring 
 ---
 
 # [Three Days and Two Nights in Macau]{.text-[32px] .font-bold}
+
+::keywords
+---
+keywords: Macau Travel,3 Days 2 Nights in Macau, Studio City Macau, Macau Flash Travel, Macau Casino Experience,Ruins of St. Paul's,Macau Food
+---
+::
 <br>
 
 ## [Introduction]{.text-lg .font-bold}

@@ -3,7 +3,15 @@ title: "Chu-yu - Japanese Omakase | Lucas's Blog"
 description: '2023-06-11 Third Visit to Chuyu Sushi - A Japanese Omakase Restaurant in Taiwan.'
 ---
 
+
+
 # [Chu-yu - Japanese Omakase]{.text-xl .font-bold}
+
+::keywords
+---
+keywords: Food,Omakase,Japanese Cuisine,Chu-yu,Birthday Celebration
+---
+::
 <br>
 
 This time, to celebrate my girlfriend's birthday,
