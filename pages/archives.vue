@@ -1,7 +1,7 @@
 <template>
   <main>
     <h2 class="text-center text-2xl font-bold">{{ $t('header.archives') }}</h2>
-    <section class="max-w-[800px] mx-auto py-10">
+    <section class="max-w-[800px] mx-auto py-10 max-md:px-4">
       <ContentList v-slot="{ list }">
         <template v-for="article in list" :key="article._path">
           <nuxt-link v-if="(locale === 'en' && article._path?.includes('/en')) || (locale !== 'en' && !article._path?.includes('/en') && article._path !== '/')" :to="article._path" class="my-5 border border-gray w-full flex flex-col px-4 py-2 rounded-2xl gap-2">

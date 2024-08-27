@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="container max-w-[600px] py-10 mx-auto">
+    <div class="container max-w-[600px] py-10 mx-auto max-md:px-4">
       <ContentDoc>
         <template v-slot="{ doc }">
           <div>

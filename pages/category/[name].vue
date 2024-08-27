@@ -1,7 +1,7 @@
 <template>
   <main>
     <h2 class="text-center text-2xl font-bold">{{ $t(`header.${route.params.name}`) }}</h2>
-    <section class="max-w-[800px] mx-auto py-10">
+    <section class="max-w-[800px] mx-auto py-10 max-md:px-4">
       <ContentList :path="localePath(`/${route.params.name}`)">
         <template #not-found>
           <p>No articles found.</p>
