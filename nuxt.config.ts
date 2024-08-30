@@ -37,7 +37,13 @@ export default defineNuxtConfig({
     buildAssetsDir: '/static/'
   },
   ssr: true,
-  modules: ['@nuxt/content', '@unocss/nuxt', '@nuxt/ui', '@nuxtjs/i18n'],
+  modules: [
+    '@nuxt/content',
+    '@unocss/nuxt',
+    '@nuxt/ui',
+    '@nuxtjs/i18n',
+    "@nuxtjs/sitemap"
+  ],
   i18n: {
     lazy: true,
     strategy: 'prefix_except_default',
@@ -81,5 +87,9 @@ export default defineNuxtConfig({
   css: [
     '@/assets/css/main.css',
   ],
+  site: {
+    url: 'https://www.lucas-chen.website',
+    name: `Lucas's Blog`
+  },
   compatibilityDate: '2024-08-03'
 })
