@@ -42,7 +42,8 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     '@nuxt/ui',
     '@nuxtjs/i18n',
-    "@nuxtjs/sitemap"
+    "@nuxtjs/sitemap",
+    "nuxt-security"
   ],
   i18n: {
     lazy: true,
