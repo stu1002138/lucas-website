@@ -1,0 +1,1 @@
+import{_ as o,o as r,c as t,z as s}from"./CNP_h_4A.js";const c={},n={style:{color:"red"}};function a(e,_){return r(),t("div",n,[s(e.$slots,"default")])}const l=o(c,[["render",a]]);export{l as default};
