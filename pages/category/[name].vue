@@ -21,16 +21,12 @@
 </template>
 <script lang="ts" setup>
 const route = useRoute()
-const colorMode = useColorMode()
-const isDark = ref(true)
+const localePath = useLocalePath()
+const { isDark } = useColorTheme()
 
-onMounted(() => {
-  watch(() => colorMode.value, () => {
-    if (colorMode.value === 'dark')isDark.value = true
-    else isDark.value = false
-  }, { immediate: true })
-})
 const categoryList = ['tech-dev', 'travel', 'food']
 
-if (!categoryList.includes(route.params.name)) navigateTo('/')
+if (!categoryList.includes(route.params.name as string)) {
+  navigateTo('/')
+}
 </script>

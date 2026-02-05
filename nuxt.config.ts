@@ -9,9 +9,15 @@ export default defineNuxtConfig({
         { property: 'og:title', content: `Home | Lucas's Blog` },
         { property: 'og:url', content: 'https://www.lucas-chen.website/' },
         { property: 'og:description', content: '一名前端工程師的部落格，紀錄著美食旅遊以及學習的技術' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:image', content: 'https://www.lucas-chen.website/og-image.png' },
+        { property: 'og:locale', content: 'zh_TW' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: `Home | Lucas's Blog` },
+        { name: 'twitter:description', content: '一名前端工程師的部落格，紀錄著美食旅遊以及學習的技術' },
       ],
       script: process.env.NODE_ENV === 'production' ? [
-        { src: 'https://www.googletagmanager.com/gtag/js?id=G-5ZTGLY54CE"' },
+        { src: 'https://www.googletagmanager.com/gtag/js?id=G-5ZTGLY54CE' },
         {
           innerHTML: `
             window.dataLayer = window.dataLayer || [];
@@ -42,8 +48,9 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     '@nuxt/ui',
     '@nuxtjs/i18n',
-    "@nuxtjs/sitemap",
-    "nuxt-security"
+    '@nuxtjs/sitemap',
+    '@nuxt/image',
+    'nuxt-security'
   ],
   i18n: {
     lazy: true,
@@ -63,26 +70,24 @@ export default defineNuxtConfig({
     langDir: 'locales'
   },
   content: {
-    markdown: {
-    },
     highlight: {
-      // Theme used in all color schemes.
-      theme: 'github-light',
+      theme: {
+        default: 'github-light',
+        dark: 'github-dark'
+      },
       langs: [
         'c',
         'cpp',
         'java',
-        'javascript'
+        'javascript',
+        'typescript',
+        'vue',
+        'html',
+        'css',
+        'json',
+        'bash',
+        'markdown'
       ]
-      // OR
-      // theme: {
-      //   // Default theme (same as single string)
-      //   default: 'github-light',
-      //   // Theme used if `html.dark`
-      //   dark: 'github-dark',
-      //   // Theme used if `html.sepia`
-      //   sepia: 'monokai'
-      // }
     }
   },
   css: [
