@@ -1,0 +1,1 @@
+import{J as r,I as t}from"./CbWx5x-9.js";const s=()=>r("color-mode").value,u=()=>{const e=s(),o=t({get(){return e.value==="dark"},set(){e.preference=e.value==="dark"?"light":"dark"}});return{colorMode:e,isDark:o}};export{u};
