@@ -24,7 +24,7 @@ const route = useRoute()
 const localePath = useLocalePath()
 const { isDark } = useColorTheme()
 
-const categoryList = ['tech-dev', 'travel', 'food']
+const categoryList = ['tech-dev', 'travel', 'food', 'note']
 
 if (!categoryList.includes(route.params.name as string)) {
   navigateTo('/')

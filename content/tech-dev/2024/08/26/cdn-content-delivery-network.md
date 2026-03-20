@@ -1,16 +1,10 @@
 ---
-title: "內容傳遞網路（CDN）的運作與應用場景探討 | Lucas's Blog"
-description: '2024-08-26 介紹的CDN架構、功能以及應用場景​，以及實作範例。'
+title: "內容傳遞網路（CDN）的運作與應用場景探討"
+description: "介紹的CDN架構、功能以及應用場景，以及實作範例。"
+date: 2024-08-26
+keywords: [內容傳遞網路, CDN 優勢, 網頁加速, 伺服器穩定性, 邊緣節點]
 ---
 
-# [內容傳遞網路（CDN）的運作與應用場景探討]{.text-xl .font-bold}
-
-::keywords
----
-keywords: 內容傳遞網路,CDN 優勢, 網頁加速, 伺服器穩定性,邊緣節點
----
-::
-<br>
 介紹一般網站架設以及有CDN網站的差異，以及CDN組成，及實際應用的示範。
 
 ## [傳統網站架設]{.text-lg .font-bold}

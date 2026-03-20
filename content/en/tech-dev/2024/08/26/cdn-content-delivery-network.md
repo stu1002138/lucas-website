@@ -1,17 +1,10 @@
 ---
-title: "Exploring the Functionality and Applications of Content Delivery Network (CDN) | Lucas's Blog"
-description: '2024-08-26 Introducing the CDN architecture, functions and application scenarios, as well as implementation examples.'
+title: "Exploring the Functionality and Applications of Content Delivery Network (CDN)"
+description: "Introducing the CDN architecture, functions and application scenarios, as well as implementation examples."
+date: 2024-08-26
+keywords: [Content Delivery Network, CDN advantages, Web acceleration, Server stability, Edge nodes]
 ---
 
-
-# [Exploring the Functionality and Applications of Content Delivery Network (CDN)]{.text-xl .font-bold}
-
-::keywords
----
-keywords: Content Delivery Network,CDN advantages, Web acceleration, Server stability,Edge nodes
----
-::
-<br>
 This article discusses the differences between traditional website setups and those using CDN, as well as the structure of CDN and practical application demonstrations.
 
 ## [Traditional Website Setup]{.text-lg .font-bold}

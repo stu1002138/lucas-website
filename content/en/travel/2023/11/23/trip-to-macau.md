@@ -1,16 +1,9 @@
 ---
-title: "Three Days and Two Nights in Macau | Lucas's Blog"
-description: '2023-11-23 Explore a three-day, two-night trip to Macau: savoring food, appreciating cultural heritage, and experiencing the charm of casinos.'
+title: "Three Days and Two Nights in Macau"
+description: "Explore a three-day, two-night trip to Macau: savoring food, appreciating cultural heritage, and experiencing the charm of casinos."
+date: 2023-11-23
+keywords: [Macau Travel, 3 Days 2 Nights in Macau, Studio City Macau, Macau Flash Travel, Macau Casino Experience, Ruins of St. Paul's, Macau Food]
 ---
-
-# [Three Days and Two Nights in Macau]{.text-[32px] .font-bold}
-
-::keywords
----
-keywords: Macau Travel,3 Days 2 Nights in Macau, Studio City Macau, Macau Flash Travel, Macau Casino Experience,Ruins of St. Paul's,Macau Food
----
-::
-<br>
 
 ## [Introduction]{.text-lg .font-bold}
 <br>
