@@ -66,10 +66,10 @@ Single `layouts/default.vue` wrapping all pages (Header + slot + Footer). Reusab
 
 **待辦項目（建議優先順序）：**
 
-#### Phase 1 — Tag 過濾（高優先）
-- [ ] 建立 `pages/tag/[name].vue`：列出含有該 keyword 的所有文章（使用 `queryContent().where({ keywords: { $contains: name } })`）
-- [ ] 更新 `components/content/Keywords.vue`：將每個 keyword badge 改為可點擊的 `<NuxtLink>`，連結至 `/tag/[keyword]`
-- [ ] 新增 i18n 字串：`locales/zh-TW.json` 和 `locales/en-US.json` 加入 `tag`、`relatedArticles` 等欄位
+#### Phase 1 — Tag 過濾 ✅ 已完成
+- [x] 建立 `pages/tag/[name].vue`：列出含有該 keyword 的所有文章（使用 `queryContent().where({ keywords: { $contains: name } })`）
+- [x] 更新 `pages/[...slug].vue`：將每個 keyword badge 改為可點擊的 `<NuxtLink>`，連結至 `/tag/[keyword]`
+- [x] 新增 i18n 字串：`locales/zh-TW.json` 和 `locales/en-US.json` 加入 `tag.notFound` 欄位
 
 #### Phase 2 — 關鍵字搜尋列（中優先）
 - [ ] 建立 `pages/search.vue`：包含搜尋輸入框與即時結果列表
@@ -85,3 +85,19 @@ Single `layouts/default.vue` wrapping all pages (Header + slot + Footer). Reusab
 - Tag 頁面需配合 i18n，中文路徑 `/tag/xxx`，英文 `/en/tag/xxx`
 - `queryContent` 支援 `.where({ keywords: { $contains: 'keyword' } })` 過濾
 - Keywords component 改 link 時需用 `localePath('/tag/' + keyword)`
+
+---
+
+## Deploy 檢查流程
+
+每次完成 Phase 後，依序執行以下步驟確認到 deploy 順利完成：
+
+1. **`bun run dev`** — 確認 dev server 正常啟動，頁面無報錯
+2. **`bun run generate`** — 確認靜態生成成功，無 ERROR（WARN 可忽略）
+3. **確認 `public/CNAME`** — 內容必須只有 `www.lucas-chen.website`，不可包含其他路徑或文字
+4. **確認 `.output/public/CNAME`** — generate 後檢查輸出目錄的 CNAME 與 `public/CNAME` 一致
+5. **`bun run deploy`** — 部署至 GitHub Pages，輸出 `Published` 即成功
+
+**已知問題紀錄：**
+- `@nuxtjs/sitemap@6.0.0-beta.4` 有 bug 導致 generate 失敗（`canonicalUrlResolver is not a function`），已升級至 `7.6.0` 解決
+- `public/CNAME` 曾被汙染（多包本機絕對路徑），導致 GitHub Pages 顯示 404，每次 deploy 前須確認內容正確
