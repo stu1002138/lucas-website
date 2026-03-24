@@ -2,10 +2,12 @@
   <header>
     <div class="container relative mx-auto py-4 flex justify-between items-center max-md:justify-center">
       <h1 class="text-base">
-        <span class="font-bold text-xl">Lucas</span> |
-        <span class="text-lg">{{ $t('header.tech') }}</span> X
-        <span class="text-lg">{{ $t('header.travel') }}</span> X
-        <span class="text-lg">{{ $t('header.food') }}</span>
+        <nuxt-link :to="localePath('/')" class="hover:opacity-75 transition-opacity">
+          <span class="font-bold text-xl">Lucas</span> |
+          <span class="text-lg">{{ $t('header.tech') }}</span> X
+          <span class="text-lg">{{ $t('header.travel') }}</span> X
+          <span class="text-lg">{{ $t('header.food') }}</span>
+        </nuxt-link>
       </h1>
       <div class="max-md:absolute max-md:right-0">
         <UIcon

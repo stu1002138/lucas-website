@@ -18,6 +18,23 @@ bun run deploy           # Deploy to GitHub Pages (.output/public)
 
 No test suite is configured.
 
+### 新增文章流程
+
+```bash
+bun run new-post   # 互動式建立新文章
+```
+
+腳本會詢問：category、slug、中英文 title/description、keywords、是否有圖片。
+
+**有圖片時的步驟：**
+1. 執行 `bun run new-post`，回答 `y` to "Has images?"
+2. 腳本自動建立 `public/img/posts/{year}/{month}/{day}/` 資料夾
+3. 將圖片放入該資料夾（建議命名 `01.jpg`, `02.jpg` 依序）
+4. 在 markdown 中使用：`![說明](/img/posts/{year}/{month}/{day}/01.jpg)`
+5. `bun run dev` 預覽（圖片由 `@nuxt/image` 自動最佳化）
+
+**注意：** 舊文章圖片仍使用 `https://cdn.lucas-chen.website/...`（外部 CDN），新文章建議使用本地路徑。
+
 ## Architecture
 
 ### Content System
@@ -102,3 +119,4 @@ Single `layouts/default.vue` wrapping all pages (Header + slot + Footer). Reusab
 - `@nuxtjs/sitemap@6.0.0-beta.4` 有 bug 導致 generate 失敗（`canonicalUrlResolver is not a function`），已升級至 `7.6.0` 解決
 - `public/CNAME` 曾被汙染（多包本機絕對路徑），導致 GitHub Pages 顯示 404，每次 deploy 前須確認內容正確
 - `bun run generate` 失敗出現 `write EPIPE` 時，通常是 esbuild binary 被 OOM kill，先執行 `ps aux | grep -E "node|bun" | grep -v grep | awk '{print $2}' | xargs kill -9` 清除殘留程序後再重試
+- 清除 `.nuxt` 快取後再 generate，prerender 只會跑出 4 個路由（crawler 無法發現內容路由）。解法：清除快取後先執行 `bunx nuxt prepare` 再 `bun run generate`

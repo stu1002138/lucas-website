@@ -21,7 +21,7 @@ keywords: [內容傳遞網路, CDN 優勢, 網頁加速, 伺服器穩定性, 邊
 然後再由瀏覽器直接連線到那台Server取得網站內容資料
 <br>
 
-![傳統網站運作流程](https://cdn.lucas-chen.website/2024/08/26/01.png)
+![傳統網站運作流程](/img/posts/2024/08/26/01.png)
 <br>
 
 那這個方式會有以下缺點
@@ -53,7 +53,7 @@ CDN 運作流程圖：
 
 <br>
 
-![CDN 網站運作流程](https://cdn.lucas-chen.website/2024/08/26/02.png)
+![CDN 網站運作流程](/img/posts/2024/08/26/02.png)
 <br>
 
 將網站內容放到 主要存放資料的Server
@@ -82,7 +82,7 @@ CDN 簡易組成如下
 
 <br>
 
-![CDN 組成](https://cdn.lucas-chen.website/2024/08/26/03.png)
+![CDN 組成](/img/posts/2024/08/26/03.png)
 
 <br>
 
@@ -96,13 +96,13 @@ CDN 簡易組成如下
 
 <br>
 
-![CDN 實戰演練1](https://cdn.lucas-chen.website/2024/08/26/04.png)
+![CDN 實戰演練1](/img/posts/2024/08/26/04.png)
 <br>
 
-![CDN 實戰演練2](https://cdn.lucas-chen.website/2024/08/26/05.png)
+![CDN 實戰演練2](/img/posts/2024/08/26/05.png)
 <br>
 
-![CDN 實戰演練3](https://cdn.lucas-chen.website/2024/08/26/06.png)
+![CDN 實戰演練3](/img/posts/2024/08/26/06.png)
 <br>
 
 發現到載入圖片的速度將近3秒
@@ -113,16 +113,16 @@ CDN 簡易組成如下
 
 <br>
 
-![CDN 實戰演練4](https://cdn.lucas-chen.website/2024/08/26/07.png)
+![CDN 實戰演練4](/img/posts/2024/08/26/07.png)
 <br>
 
-![CDN 實戰演練5](https://cdn.lucas-chen.website/2024/08/26/08.png)
+![CDN 實戰演練5](/img/posts/2024/08/26/08.png)
 <br>
 
-![CDN 實戰演練6](https://cdn.lucas-chen.website/2024/08/26/09.png)
+![CDN 實戰演練6](/img/posts/2024/08/26/09.png)
 <br>
 
-![CDN 實戰演練7](https://cdn.lucas-chen.website/2024/08/26/10.png)
+![CDN 實戰演練7](/img/posts/2024/08/26/10.png)
 <br>
 
 選完後，會有兩個 主要的 CDN DNS 需要設定在你的域名代理商
@@ -132,13 +132,13 @@ CDN 簡易組成如下
 所以我要去Gandi 設定網域 名稱伺服器
 <br>
 
-![CDN 實戰演練8](https://cdn.lucas-chen.website/2024/08/26/11.png)
+![CDN 實戰演練8](/img/posts/2024/08/26/11.png)
 <br>
 
-![CDN 實戰演練9](https://cdn.lucas-chen.website/2024/08/26/12.png)
+![CDN 實戰演練9](/img/posts/2024/08/26/12.png)
 <br>
 
-![CDN 實戰演練10](https://cdn.lucas-chen.website/2024/08/26/13.png)
+![CDN 實戰演練10](/img/posts/2024/08/26/13.png)
 <br>
 
 設定完後就是這樣
@@ -149,7 +149,7 @@ CDN 簡易組成如下
 
 <br>
 
-![CDN 實戰演練11](https://cdn.lucas-chen.website/2024/08/26/14.png)
+![CDN 實戰演練11](/img/posts/2024/08/26/14.png)
 <br>
 
 相較於沒掛載CDN 服務之前 每張圖需要快3秒
@@ -167,7 +167,7 @@ CDN 簡易組成如下
 台北 連高雄 速度上就真的可以加快很多呢！
 
 
-![CDN 實戰演練12](https://cdn.lucas-chen.website/2024/08/26/15.png)
+![CDN 實戰演練12](/img/posts/2024/08/26/15.png)
 <br>
 
 

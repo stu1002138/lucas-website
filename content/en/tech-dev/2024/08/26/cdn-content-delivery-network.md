@@ -18,7 +18,7 @@ The browser then connects directly to that server to retrieve website content.
 
 <br>
 
-![Traditional Website Process](https://cdn.lucas-chen.website/2024/08/26/01.png)
+![Traditional Website Process](/img/posts/2024/08/26/01.png)
 <br>
 
 This method has the following disadvantages:
@@ -48,7 +48,7 @@ CDN Process Diagram:
 
 <br>
 
-![CDN Process Diagram](https://cdn.lucas-chen.website/2024/08/26/02.png)
+![CDN Process Diagram](/img/posts/2024/08/26/02.png)
 <br>
 
 Website content is stored on the primary server.
@@ -70,7 +70,7 @@ CDN is composed of the following:
 
 <br>
 
-![CDN composed](https://cdn.lucas-chen.website/2024/08/26/03.png)
+![CDN composed](/img/posts/2024/08/26/03.png)
 
 <br>
 
@@ -82,13 +82,13 @@ Then I tested the load speed for the first time.
 
 <br>
 
-![CDN Demo1](https://cdn.lucas-chen.website/2024/08/26/04.png)
+![CDN Demo1](/img/posts/2024/08/26/04.png)
 <br>
 
-![CDN Demo2](https://cdn.lucas-chen.website/2024/08/26/05.png)
+![CDN Demo2](/img/posts/2024/08/26/05.png)
 <br>
 
-![CDN Demo3](https://cdn.lucas-chen.website/2024/08/26/06.png)
+![CDN Demo3](/img/posts/2024/08/26/06.png)
 <br>
 
 It took almost 3 seconds to load the images.
@@ -99,16 +99,16 @@ I used Cloudflare as the CDN service provider since they offer a free plan.
 
 <br>
 
-![CDN Demo4](https://cdn.lucas-chen.website/2024/08/26/07.png)
+![CDN Demo4](/img/posts/2024/08/26/07.png)
 <br>
 
-![CDN Demo5](https://cdn.lucas-chen.website/2024/08/26/08.png)
+![CDN Demo5](/img/posts/2024/08/26/08.png)
 <br>
 
-![CDN Demo6](https://cdn.lucas-chen.website/2024/08/26/09.png)
+![CDN Demo6](/img/posts/2024/08/26/09.png)
 <br>
 
-![CDN Demo7](https://cdn.lucas-chen.website/2024/08/26/10.png)
+![CDN Demo7](/img/posts/2024/08/26/10.png)
 <br>
 
 After configuring, there are two main CDN DNS settings required by your domain registrar.
@@ -116,13 +116,13 @@ After configuring, there are two main CDN DNS settings required by your domain r
 I purchased my domain on Gandi, so I need to configure the domain’s name servers there.
 <br>
 
-![CDN Demo8](https://cdn.lucas-chen.website/2024/08/26/11.png)
+![CDN Demo8](/img/posts/2024/08/26/11.png)
 <br>
 
-![CDN Demo9](https://cdn.lucas-chen.website/2024/08/26/12.png)
+![CDN Demo9](/img/posts/2024/08/26/12.png)
 <br>
 
-![CDN Demo10](https://cdn.lucas-chen.website/2024/08/26/13.png)
+![CDN Demo10](/img/posts/2024/08/26/13.png)
 <br>
 
 Once configured, it looks like this.
@@ -131,7 +131,7 @@ After enabling the CDN, you can observe the significant improvement in loading s
 
 <br>
 
-![CDN Demo11](https://cdn.lucas-chen.website/2024/08/26/14.png)
+![CDN Demo11](/img/posts/2024/08/26/14.png)
 <br>
 
 Compared to not using CDN, where each image took almost 3 seconds to load, with CDN, each image now loads in less than 200 milliseconds.
@@ -147,7 +147,7 @@ You’ll see something like colo=KHH, indicating that it’s connected to the Ka
 For users in Taipei, connecting to Kaohsiung speeds up the connection significantly!
 
 
-![CDN Demo12](https://cdn.lucas-chen.website/2024/08/26/15.png)
+![CDN Demo12](/img/posts/2024/08/26/15.png)
 <br>
 
 

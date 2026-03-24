@@ -12,10 +12,10 @@ In November 2023, a friend of mine originally planned to visit Macau with anothe
 
 <br> 
 
-![Ready to fly to Macau](https://cdn.lucas-chen.website/2023/11/23/01.jpg)
+![Ready to fly to Macau](/img/posts/2023/11/23/01.jpg)
 <br>
 
-![Ready to fly to Macau](https://cdn.lucas-chen.website/2023/11/23/02.jpg)
+![Ready to fly to Macau](/img/posts/2023/11/23/02.jpg)
 <br>
 
 ## [Arriving in Macau]{.text-lg .font-bold}
@@ -25,7 +25,7 @@ Upon arrival in Macau, I noticed many hotel shuttle buses near the airport, maki
 
 <br>
 
-![Taking the hotel shuttle bus](https://cdn.lucas-chen.website/2023/11/23/03.jpg)
+![Taking the hotel shuttle bus](/img/posts/2023/11/23/03.jpg)
 
 <br>
 
@@ -33,7 +33,7 @@ View of the hotel exterior (taken from the shuttle bus, a bit blurry).
 
 <br>
 
-![Hotel exterior](https://cdn.lucas-chen.website/2023/11/23/04.jpg)
+![Hotel exterior](/img/posts/2023/11/23/04.jpg)
 
 <br>
 
@@ -41,11 +41,11 @@ After checking in, the room wasn’t luxurious, but it was very comfortable. We 
 
 <br>
 
-![Room photo](https://cdn.lucas-chen.website/2023/11/23/05.jpg)
+![Room photo](/img/posts/2023/11/23/05.jpg)
 
 <br>
 
-![Room photo](https://cdn.lucas-chen.website/2023/11/23/06.jpg)
+![Room photo](/img/posts/2023/11/23/06.jpg)
 
 <br>
 
@@ -53,7 +53,7 @@ After settling in, it was time to replenish our energy with some food. Since it 
 
 <br>
 
-![第一天晚餐](https://cdn.lucas-chen.website/2023/11/23/07.jpg)
+![第一天晚餐](/img/posts/2023/11/23/07.jpg)
 
 <br>
 
@@ -71,7 +71,7 @@ The second day was mostly spent at Studio City’s water park, so we didn’t ve
 
 <br>
 
-![On the Light Rail Transit](https://cdn.lucas-chen.website/2023/11/23/1294217.jpg)
+![On the Light Rail Transit](/img/posts/2023/11/23/1294217.jpg)
 
 <br>
 
@@ -79,7 +79,7 @@ We found a well-reviewed curry beef offal stall in the city center and decided t
 
 <br>
 
-![Eating curry beef offal](https://cdn.lucas-chen.website/2023/11/23/09.jpg)
+![Eating curry beef offal](/img/posts/2023/11/23/09.jpg)
 
 <br>
 
@@ -89,15 +89,15 @@ Although tasty, it wasn’t as impressive as I had hoped.
 
 <br>
 
-![Water crab congee dish 1](https://cdn.lucas-chen.website/2023/11/23/11.jpg)
+![Water crab congee dish 1](/img/posts/2023/11/23/11.jpg)
 
 <br>
 
-![Water crab congee dish 2](https://cdn.lucas-chen.website/2023/11/23/12.jpg)
+![Water crab congee dish 2](/img/posts/2023/11/23/12.jpg)
 
 <br>
 
-![Award](https://cdn.lucas-chen.website/2023/11/23/13.jpg)
+![Award](/img/posts/2023/11/23/13.jpg)
 
 <br>
 
@@ -105,11 +105,11 @@ We then headed to a well-known café, Wong Kei Coffee, for some drinks.
 
 <br>
 
-![Wong Kei Coffee](https://cdn.lucas-chen.website/2023/11/23/1294222.jpg)
+![Wong Kei Coffee](/img/posts/2023/11/23/1294222.jpg)
 
 <br>
 
-![Photo near Wong Kei Coffee](https://cdn.lucas-chen.website/2023/11/23/10.jpg)
+![Photo near Wong Kei Coffee](/img/posts/2023/11/23/10.jpg)
 
 <br>
 
@@ -117,7 +117,7 @@ After wandering around, we headed back to Studio City to enjoy the water park. S
 
 <br>
 
-![water park](https://cdn.lucas-chen.website/2023/11/23/14.jpg)
+![water park](/img/posts/2023/11/23/14.jpg)
 
 <br>
 
@@ -127,7 +127,7 @@ In the evening, we had dim sum for dinner. It was decent, but the bill came to a
 
 <br>
 
-![Dim sum](https://cdn.lucas-chen.website/2023/11/23/22.jpg)
+![Dim sum](/img/posts/2023/11/23/22.jpg)
 
 <br>
 
@@ -135,15 +135,15 @@ In the evening, we had dim sum for dinner. It was decent, but the bill came to a
 
 <br>
 
-![Casino 1](https://cdn.lucas-chen.website/2023/11/23/15.jpg)
+![Casino 1](/img/posts/2023/11/23/15.jpg)
 
 <br>
 
-![Casino 2](https://cdn.lucas-chen.website/2023/11/23/16.jpg)
+![Casino 2](/img/posts/2023/11/23/16.jpg)
 
 <br>
 
-![Casino 3](https://cdn.lucas-chen.website/2023/11/23/21.jpg)
+![Casino 3](/img/posts/2023/11/23/21.jpg)
 
 <br>
 
@@ -159,11 +159,11 @@ Today was our last day in Macau. In the morning, we used a McDonald’s coupon f
 
 <br>
 
-![McDonald’s](https://cdn.lucas-chen.website/2023/11/23/23.jpg)
+![McDonald’s](/img/posts/2023/11/23/23.jpg)
 
 <br>
 
-![McDonald’s receipt](https://cdn.lucas-chen.website/2023/11/23/24.jpg)
+![McDonald’s receipt](/img/posts/2023/11/23/24.jpg)
 
 <br>
 
@@ -172,7 +172,7 @@ We didn’t order much, as we planned to head to the old city area. After eating
 
 <br>
 
-![Third day lunch](https://cdn.lucas-chen.website/2023/11/23/25.jpg)
+![Third day lunch](/img/posts/2023/11/23/25.jpg)
 
 <br>
 
@@ -180,7 +180,7 @@ After lunch, we visited the iconic Ruins of St. Paul’s for some sightseeing an
 
 <br>
 
-![Ruins of St. Paul’s](https://cdn.lucas-chen.website/2023/11/23/18.jpg)
+![Ruins of St. Paul’s](/img/posts/2023/11/23/18.jpg)
 
 <br>
 
@@ -188,7 +188,7 @@ After taking pictures, we walked around the area but didn’t find much to buy c
 
 <br>
 
-![Portuguese egg tarts](https://cdn.lucas-chen.website/2023/11/23/19.jpg)
+![Portuguese egg tarts](/img/posts/2023/11/23/19.jpg)
 
 <br>
 

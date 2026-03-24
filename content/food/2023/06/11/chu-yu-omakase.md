@@ -11,7 +11,6 @@ keywords: [美食, 無菜單料理, 日本料理, 初魚, 慶生]
 
 <br>
 
-![店家圖片](https://scontent.ftpe14-1.fna.fbcdn.net/v/t39.30808-6/306085164_608610030967634_3901678845169237441_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=vwdLq4CScFEQ7kNvgGsEwgM&_nc_ht=scontent.ftpe14-1.fna&oh=00_AYDh52z3LSEPN5Fv3Q5DjR9nYw6-eC8ZS3Rq1f0NzW8yLA&oe=66D34150)
 
 <br>
 
@@ -40,7 +39,7 @@ keywords: [美食, 無菜單料理, 日本料理, 初魚, 慶生]
 
 <br>
 
-![就定位](https://cdn.lucas-chen.website/2023/06/11/01.jpg)
+![就定位](/img/posts/2023/06/11/01.jpg)
 
 <br>
 
@@ -52,7 +51,7 @@ keywords: [美食, 無菜單料理, 日本料理, 初魚, 慶生]
 
 <br>
 
-![前菜](https://cdn.lucas-chen.website/2023/06/11/02.jpg)
+![前菜](/img/posts/2023/06/11/02.jpg)
 <br>
 
 上了這道前菜 非常清爽開胃  
@@ -61,52 +60,52 @@ keywords: [美食, 無菜單料理, 日本料理, 初魚, 慶生]
 
 <br>
 
-![第二道](https://cdn.lucas-chen.website/2023/06/11/03.jpg)
+![第二道](/img/posts/2023/06/11/03.jpg)
 <br>
 
-![第三道](https://cdn.lucas-chen.website/2023/06/11/04.jpg)
+![第三道](/img/posts/2023/06/11/04.jpg)
 <br>
 
-![第四道](https://cdn.lucas-chen.website/2023/06/11/05.jpg)
+![第四道](/img/posts/2023/06/11/05.jpg)
 <br>
 
-![第五道](https://cdn.lucas-chen.website/2023/06/11/06.jpg)
+![第五道](/img/posts/2023/06/11/06.jpg)
 <br>
 
-![第六道](https://cdn.lucas-chen.website/2023/06/11/07.jpg)
+![第六道](/img/posts/2023/06/11/07.jpg)
 <br>
 
-![第七道](https://cdn.lucas-chen.website/2023/06/11/08.jpg)
+![第七道](/img/posts/2023/06/11/08.jpg)
 <br>
 
-![第八道](https://cdn.lucas-chen.website/2023/06/11/09.jpg)
+![第八道](/img/posts/2023/06/11/09.jpg)
 <br>
 
-![第九道](https://cdn.lucas-chen.website/2023/06/11/10.jpg)
+![第九道](/img/posts/2023/06/11/10.jpg)
 <br>
 
-![第十道](https://cdn.lucas-chen.website/2023/06/11/11.jpg)
+![第十道](/img/posts/2023/06/11/11.jpg)
 <br>
 
-![第十一道](https://cdn.lucas-chen.website/2023/06/11/12.jpg)
+![第十一道](/img/posts/2023/06/11/12.jpg)
 <br>
 
-![第十二道](https://cdn.lucas-chen.website/2023/06/11/13.jpg)
+![第十二道](/img/posts/2023/06/11/13.jpg)
 <br>
 
-![第十三道](https://cdn.lucas-chen.website/2023/06/11/14.jpg)
+![第十三道](/img/posts/2023/06/11/14.jpg)
 <br>
 
-![第十四道](https://cdn.lucas-chen.website/2023/06/11/15.jpg)
+![第十四道](/img/posts/2023/06/11/15.jpg)
 <br>
 
-![第十五道](https://cdn.lucas-chen.website/2023/06/11/16.jpg)
+![第十五道](/img/posts/2023/06/11/16.jpg)
 <br>
 
-![第十六道](https://cdn.lucas-chen.website/2023/06/11/17.jpg)
+![第十六道](/img/posts/2023/06/11/17.jpg)
 <br>
 
-![第十七道](https://cdn.lucas-chen.website/2023/06/11/18.jpg)
+![第十七道](/img/posts/2023/06/11/18.jpg)
 <br>
 
 因為時間上已經有一陣子了
@@ -133,7 +132,7 @@ keywords: [美食, 無菜單料理, 日本料理, 初魚, 慶生]
 
 <br>
 
-![第十八道](https://cdn.lucas-chen.website/2023/06/11/19.jpg)
+![第十八道](/img/posts/2023/06/11/19.jpg)
 
 <br>
 
@@ -143,7 +142,7 @@ keywords: [美食, 無菜單料理, 日本料理, 初魚, 慶生]
 
 <br>
 
-![第十八道](https://cdn.lucas-chen.website/2023/06/11/20.jpg)
+![第十八道](/img/posts/2023/06/11/20.jpg)
 
 <br>
 
