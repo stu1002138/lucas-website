@@ -77,9 +77,9 @@ Single `layouts/default.vue` wrapping all pages (Header + slot + Footer). Reusab
 - [x] 在 `components/Common/Header.vue` 加入搜尋放大鏡 icon（Desktop + Mobile）
 - [x] 搜尋支援雙語（依當前 locale 過濾對應語系文章）
 
-#### Phase 3 — 全文搜尋（低優先／選擇性）
-- [ ] 評估整合 **Fuse.js**（輕量客戶端模糊搜尋），支援文章內文全文搜尋
-- [ ] 或整合 **Nuxt Content 內建搜尋**（`documentDriven` + search index）
+#### Phase 3 — 全文搜尋 ✅ 已完成
+- [x] 整合 **Fuse.js 7.x**，支援文章內文全文模糊搜尋
+- [x] 更新 `composables/useSearch.ts`：遞迴提取 body AST 純文字，加權搜尋（title > keywords > description > body）
 
 **技術備註：**
 - Tag 頁面需配合 i18n，中文路徑 `/tag/xxx`，英文 `/en/tag/xxx`
@@ -101,3 +101,4 @@ Single `layouts/default.vue` wrapping all pages (Header + slot + Footer). Reusab
 **已知問題紀錄：**
 - `@nuxtjs/sitemap@6.0.0-beta.4` 有 bug 導致 generate 失敗（`canonicalUrlResolver is not a function`），已升級至 `7.6.0` 解決
 - `public/CNAME` 曾被汙染（多包本機絕對路徑），導致 GitHub Pages 顯示 404，每次 deploy 前須確認內容正確
+- `bun run generate` 失敗出現 `write EPIPE` 時，通常是 esbuild binary 被 OOM kill，先執行 `ps aux | grep -E "node|bun" | grep -v grep | awk '{print $2}' | xargs kill -9` 清除殘留程序後再重試

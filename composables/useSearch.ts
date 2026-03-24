@@ -1,29 +1,59 @@
+import Fuse from 'fuse.js'
+
+// Recursively extract plain text from @nuxt/content body AST
+function extractText(node: any): string {
+  if (!node) return ''
+  if (node.type === 'text') return node.value || ''
+  if (Array.isArray(node.children)) {
+    return node.children.map(extractText).join(' ')
+  }
+  return ''
+}
+
 export const useSearch = () => {
   const { locale } = useI18n()
   const query = ref('')
 
   const { data: allArticles } = useAsyncData('search-articles', () =>
-    queryContent().only(['title', 'description', 'keywords', '_path']).find()
+    queryContent().find()
   )
 
-  const results = computed(() => {
-    if (!query.value.trim() || !allArticles.value) return []
+  const fuseInstance = computed(() => {
+    if (!allArticles.value) return null
 
-    const q = query.value.toLowerCase()
-
-    return allArticles.value.filter((article) => {
-      const isCurrentLocale = locale.value === 'en'
+    const localeArticles = allArticles.value.filter((article) =>
+      locale.value === 'en'
         ? article._path?.includes('/en')
         : !article._path?.includes('/en') && article._path !== '/'
+    )
 
-      if (!isCurrentLocale) return false
+    const docs = localeArticles.map(article => ({
+      title: article.title || '',
+      description: article.description || '',
+      keywords: article.keywords || [],
+      body: extractText(article.body),
+      _path: article._path,
+    }))
 
-      return (
-        article.title?.toLowerCase().includes(q) ||
-        article.description?.toLowerCase().includes(q) ||
-        article.keywords?.some((k: string) => k.toLowerCase().includes(q))
-      )
+    return new Fuse(docs, {
+      keys: [
+        { name: 'title', weight: 3 },
+        { name: 'keywords', weight: 2 },
+        { name: 'description', weight: 1.5 },
+        { name: 'body', weight: 1 },
+      ],
+      threshold: 0.4,
+      includeScore: true,
+      ignoreLocation: true,
+      minMatchCharLength: 2,
     })
+  })
+
+  const results = computed(() => {
+    if (!query.value.trim() || !fuseInstance.value) return []
+    return fuseInstance.value
+      .search(query.value)
+      .map(r => r.item)
   })
 
   return { query, results }
