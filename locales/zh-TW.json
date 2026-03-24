@@ -34,6 +34,10 @@
   "tag": {
     "notFound": "此標籤尚無文章"
   },
+  "search": {
+    "placeholder": "搜尋文章標題、描述、關鍵字...",
+    "notFound": "找不到相關文章"
+  },
   "jobInfo": {
     "owlting": "奧丁丁旅行社股份有限公司",
     "jobTitle": "職稱：",

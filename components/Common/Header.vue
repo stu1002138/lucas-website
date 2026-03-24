@@ -27,6 +27,15 @@
             </nuxt-link>
           </li>
           <li>
+            <UButton
+              icon="i-heroicons-magnifying-glass-20-solid"
+              color="gray"
+              variant="ghost"
+              aria-label="Search"
+              :to="localePath('/search')"
+            />
+          </li>
+          <li>
             <ClientOnly>
               <UButton
                 :icon="isDark ? 'i-heroicons-moon-20-solid' : 'i-heroicons-sun-20-solid'"
@@ -64,6 +73,16 @@
                 <UIcon name="i-icon-park-outline:world" class="w-5 h-5" />
                 {{ locale === 'tw' ? 'EN' : '中文' }}
               </nuxt-link>
+            </li>
+            <li>
+              <UButton
+                icon="i-heroicons-magnifying-glass-20-solid"
+                color="gray"
+                variant="ghost"
+                aria-label="Search"
+                :to="localePath('/search')"
+                @click="handleClose"
+              />
             </li>
             <li>
               <ClientOnly>

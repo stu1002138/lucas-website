@@ -71,11 +71,11 @@ Single `layouts/default.vue` wrapping all pages (Header + slot + Footer). Reusab
 - [x] 更新 `pages/[...slug].vue`：將每個 keyword badge 改為可點擊的 `<NuxtLink>`，連結至 `/tag/[keyword]`
 - [x] 新增 i18n 字串：`locales/zh-TW.json` 和 `locales/en-US.json` 加入 `tag.notFound` 欄位
 
-#### Phase 2 — 關鍵字搜尋列（中優先）
-- [ ] 建立 `pages/search.vue`：包含搜尋輸入框與即時結果列表
-- [ ] 建立 `composables/useSearch.ts`：封裝 `queryContent` 過濾邏輯（依 title、description、keywords 搜尋）
-- [ ] 在 `components/Common/Header.vue` 加入搜尋入口（icon 或搜尋列）
-- [ ] 搜尋支援雙語（依當前 locale 過濾對應語系文章）
+#### Phase 2 — 關鍵字搜尋列 ✅ 已完成
+- [x] 建立 `pages/search.vue`：包含搜尋輸入框與即時結果列表（自動 focus，顯示 keyword badges）
+- [x] 建立 `composables/useSearch.ts`：封裝 `queryContent` 過濾邏輯（依 title、description、keywords 搜尋）
+- [x] 在 `components/Common/Header.vue` 加入搜尋放大鏡 icon（Desktop + Mobile）
+- [x] 搜尋支援雙語（依當前 locale 過濾對應語系文章）
 
 #### Phase 3 — 全文搜尋（低優先／選擇性）
 - [ ] 評估整合 **Fuse.js**（輕量客戶端模糊搜尋），支援文章內文全文搜尋

@@ -34,6 +34,10 @@
   "tag": {
     "notFound": "No articles found for this tag."
   },
+  "search": {
+    "placeholder": "Search by title, description, keywords...",
+    "notFound": "No articles found."
+  },
   "jobInfo": {
     "owlting": "Owlting",
     "jobTitle": "Job Title:",
