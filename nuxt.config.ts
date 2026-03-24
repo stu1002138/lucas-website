@@ -97,5 +97,12 @@ export default defineNuxtConfig({
     url: 'https://www.lucas-chen.website',
     name: `Lucas's Blog`
   },
+  security: {
+    headers: {
+      contentSecurityPolicy: {
+        'img-src': ["'self'", 'data:', 'https://cdn.lucas-chen.website', 'https://scontent.ftpe14-1.fna.fbcdn.net', 'https://*.fbcdn.net'],
+      }
+    }
+  },
   compatibilityDate: '2024-08-03'
 })
