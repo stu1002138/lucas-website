@@ -8,9 +8,14 @@
               <h1 class="text-xl font-bold">{{ doc.title }}</h1>
               <p v-if="doc.date" class="text-gray text-sm mt-1">{{ formatDate(doc.date) }}</p>
               <div v-if="doc.keywords?.length" class="flex gap-2 my-2 flex-wrap">
-                <span v-for="key in doc.keywords" :key="key" class="bg-blue rounded-2xl px-2 py-[2px] text-sm text-white">
+                <nuxt-link
+                  v-for="key in doc.keywords"
+                  :key="key"
+                  :to="localePath(`/tag/${key}`)"
+                  class="bg-blue rounded-2xl px-2 py-[2px] text-sm text-white hover:opacity-80"
+                >
                   {{ key }}
-                </span>
+                </nuxt-link>
               </div>
               <hr class="my-4">
               <ContentRenderer :value="doc" />
@@ -48,6 +53,7 @@
 
 <script setup lang="ts">
 const { isDark } = useColorTheme()
+const localePath = useLocalePath()
 
 const { data: doc } = await useAsyncData('doc', () =>
   queryContent(useRoute().path).findOne()

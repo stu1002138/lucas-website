@@ -50,3 +50,38 @@ UnoCSS (Tailwind-compatible atomic CSS). Global styles in `assets/css/main.css`.
 
 ### Layout & Components
 Single `layouts/default.vue` wrapping all pages (Header + slot + Footer). Reusable content components in `components/content/` (Card, Keywords, PageIndex). Article pages include Utterances (GitHub-based) comments.
+
+---
+
+## TODO
+
+> 注意：本站為靜態站（GitHub Pages），無法使用 Server API，所有搜尋邏輯須在客戶端完成。
+
+### 搜尋與 Tag 功能優化
+
+**現況分析：**
+- `keywords` 已在各篇文章 frontmatter 中定義（陣列格式）
+- `components/content/Keywords.vue` 已實作顯示為 badge，但不可點擊
+- 目前無任何搜尋功能、Tag 過濾頁面、搜尋列
+
+**待辦項目（建議優先順序）：**
+
+#### Phase 1 — Tag 過濾（高優先）
+- [ ] 建立 `pages/tag/[name].vue`：列出含有該 keyword 的所有文章（使用 `queryContent().where({ keywords: { $contains: name } })`）
+- [ ] 更新 `components/content/Keywords.vue`：將每個 keyword badge 改為可點擊的 `<NuxtLink>`，連結至 `/tag/[keyword]`
+- [ ] 新增 i18n 字串：`locales/zh-TW.json` 和 `locales/en-US.json` 加入 `tag`、`relatedArticles` 等欄位
+
+#### Phase 2 — 關鍵字搜尋列（中優先）
+- [ ] 建立 `pages/search.vue`：包含搜尋輸入框與即時結果列表
+- [ ] 建立 `composables/useSearch.ts`：封裝 `queryContent` 過濾邏輯（依 title、description、keywords 搜尋）
+- [ ] 在 `components/Common/Header.vue` 加入搜尋入口（icon 或搜尋列）
+- [ ] 搜尋支援雙語（依當前 locale 過濾對應語系文章）
+
+#### Phase 3 — 全文搜尋（低優先／選擇性）
+- [ ] 評估整合 **Fuse.js**（輕量客戶端模糊搜尋），支援文章內文全文搜尋
+- [ ] 或整合 **Nuxt Content 內建搜尋**（`documentDriven` + search index）
+
+**技術備註：**
+- Tag 頁面需配合 i18n，中文路徑 `/tag/xxx`，英文 `/en/tag/xxx`
+- `queryContent` 支援 `.where({ keywords: { $contains: 'keyword' } })` 過濾
+- Keywords component 改 link 時需用 `localePath('/tag/' + keyword)`
