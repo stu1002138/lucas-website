@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/__sitemap__/style.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://www.lucas-chen.website/</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en" hreflang="en-US" />
+        <image:image>
+            <image:loc>https://www.lucas-chen.website/_ipx/_/img/profile.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.lucas-chen.website/_ipx/_/img/owlting-logo.jpeg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.lucas-chen.website/_ipx/_/img/envotion-logo.jpeg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.lucas-chen.website/_ipx/_/img/gigabyte-logo.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.lucas-chen.website/_ipx/_/img/lang/android-logo.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.lucas-chen.website/_ipx/_/img/lang/java-logo.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.lucas-chen.website/_ipx/_/img/lang/mysql-logo.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.lucas-chen.website/_ipx/_/img/lang/html-logo.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.lucas-chen.website/_ipx/_/img/lang/javascript-logo.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.lucas-chen.website/_ipx/_/img/lang/css-logo.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.lucas-chen.website/_ipx/_/img/lang/vue-logo.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.lucas-chen.website/_ipx/_/img/lang/nuxt-logo.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.lucas-chen.website/_ipx/_/img/lang/typescript-logo.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.lucas-chen.website/_ipx/_/img/lang/naiveui-logo.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.lucas-chen.website/_ipx/_/img/lang/tailwind-logo.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.lucas-chen.website/_ipx/_/img/lang/node-logo.svg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.lucas-chen.website/_ipx/_/img/lang/vite-logo.svg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/archives</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/archives" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/archives" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/archives" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/category/food</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/category/food" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/category/food" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/category/food" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/category/tech-dev</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/category/tech-dev" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/category/tech-dev" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/category/tech-dev" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/category/travel</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/category/travel" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/category/travel" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/category/travel" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/%E4%BC%BA%E6%9C%8D%E5%99%A8%E7%A9%A9%E5%AE%9A%E6%80%A7</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E4%BC%BA%E6%9C%8D%E5%99%A8%E7%A9%A9%E5%AE%9A%E6%80%A7" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E4%BC%BA%E6%9C%8D%E5%99%A8%E7%A9%A9%E5%AE%9A%E6%80%A7" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/%E4%BC%BA%E6%9C%8D%E5%99%A8%E7%A9%A9%E5%AE%9A%E6%80%A7" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/%E5%80%8B%E4%BA%BA%E6%88%90%E9%95%B7</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E5%80%8B%E4%BA%BA%E6%88%90%E9%95%B7" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E5%80%8B%E4%BA%BA%E6%88%90%E9%95%B7" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/%E5%80%8B%E4%BA%BA%E6%88%90%E9%95%B7" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/%E5%85%A7%E5%AE%B9%E5%82%B3%E9%81%9E%E7%B6%B2%E8%B7%AF</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E5%85%A7%E5%AE%B9%E5%82%B3%E9%81%9E%E7%B6%B2%E8%B7%AF" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E5%85%A7%E5%AE%B9%E5%82%B3%E9%81%9E%E7%B6%B2%E8%B7%AF" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/%E5%85%A7%E5%AE%B9%E5%82%B3%E9%81%9E%E7%B6%B2%E8%B7%AF" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/%E5%88%9D%E9%AD%9A</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E5%88%9D%E9%AD%9A" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E5%88%9D%E9%AD%9A" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/%E5%88%9D%E9%AD%9A" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/%E5%A4%A7%E4%B8%89%E5%B7%B4%E7%89%8C%E5%9D%8A</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E5%A4%A7%E4%B8%89%E5%B7%B4%E7%89%8C%E5%9D%8A" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E5%A4%A7%E4%B8%89%E5%B7%B4%E7%89%8C%E5%9D%8A" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/%E5%A4%A7%E4%B8%89%E5%B7%B4%E7%89%8C%E5%9D%8A" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/%E5%AE%B6%E4%BA%BA%E5%81%A5%E5%BA%B7</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E5%AE%B6%E4%BA%BA%E5%81%A5%E5%BA%B7" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E5%AE%B6%E4%BA%BA%E5%81%A5%E5%BA%B7" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/%E5%AE%B6%E4%BA%BA%E5%81%A5%E5%BA%B7" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/%E5%AE%B6%E5%BA%AD%E8%88%87%E5%B7%A5%E4%BD%9C%E5%B9%B3%E8%A1%A1</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E5%AE%B6%E5%BA%AD%E8%88%87%E5%B7%A5%E4%BD%9C%E5%B9%B3%E8%A1%A1" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E5%AE%B6%E5%BA%AD%E8%88%87%E5%B7%A5%E4%BD%9C%E5%B9%B3%E8%A1%A1" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/%E5%AE%B6%E5%BA%AD%E8%88%87%E5%B7%A5%E4%BD%9C%E5%B9%B3%E8%A1%A1" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/%E6%85%B6%E7%94%9F</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E6%85%B6%E7%94%9F" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E6%85%B6%E7%94%9F" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/%E6%85%B6%E7%94%9F" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/%E6%96%B0%E6%BF%A0%E5%BD%B1%E5%8C%AF</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E6%96%B0%E6%BF%A0%E5%BD%B1%E5%8C%AF" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E6%96%B0%E6%BF%A0%E5%BD%B1%E5%8C%AF" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/%E6%96%B0%E6%BF%A0%E5%BD%B1%E5%8C%AF" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/%E6%97%A5%E6%9C%AC%E6%96%99%E7%90%86" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/%E6%BE%B3%E9%96%80%E4%B8%89%E5%A4%A9%E5%85%A9%E5%A4%9C</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E6%BE%B3%E9%96%80%E4%B8%89%E5%A4%A9%E5%85%A9%E5%A4%9C" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E6%BE%B3%E9%96%80%E4%B8%89%E5%A4%A9%E5%85%A9%E5%A4%9C" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/%E6%BE%B3%E9%96%80%E4%B8%89%E5%A4%A9%E5%85%A9%E5%A4%9C" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/%E6%BE%B3%E9%96%80%E5%BF%AB%E9%96%83%E8%A1%8C%E7%A8%8B</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E6%BE%B3%E9%96%80%E5%BF%AB%E9%96%83%E8%A1%8C%E7%A8%8B" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E6%BE%B3%E9%96%80%E5%BF%AB%E9%96%83%E8%A1%8C%E7%A8%8B" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/%E6%BE%B3%E9%96%80%E5%BF%AB%E9%96%83%E8%A1%8C%E7%A8%8B" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/%E6%BE%B3%E9%96%80%E6%97%85%E9%81%8A</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E6%BE%B3%E9%96%80%E6%97%85%E9%81%8A" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E6%BE%B3%E9%96%80%E6%97%85%E9%81%8A" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/%E6%BE%B3%E9%96%80%E6%97%85%E9%81%8A" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/%E6%BE%B3%E9%96%80%E7%BE%8E%E9%A3%9F</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E6%BE%B3%E9%96%80%E7%BE%8E%E9%A3%9F" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E6%BE%B3%E9%96%80%E7%BE%8E%E9%A3%9F" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/%E6%BE%B3%E9%96%80%E7%BE%8E%E9%A3%9F" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/%E6%BE%B3%E9%96%80%E8%B3%AD%E5%A0%B4%E9%AB%94%E9%A9%97</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E6%BE%B3%E9%96%80%E8%B3%AD%E5%A0%B4%E9%AB%94%E9%A9%97" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E6%BE%B3%E9%96%80%E8%B3%AD%E5%A0%B4%E9%AB%94%E9%A9%97" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/%E6%BE%B3%E9%96%80%E8%B3%AD%E5%A0%B4%E9%AB%94%E9%A9%97" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/%E7%84%A1%E8%8F%9C%E5%96%AE%E6%96%99%E7%90%86</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E7%84%A1%E8%8F%9C%E5%96%AE%E6%96%99%E7%90%86" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E7%84%A1%E8%8F%9C%E5%96%AE%E6%96%99%E7%90%86" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/%E7%84%A1%E8%8F%9C%E5%96%AE%E6%96%99%E7%90%86" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/%E7%85%A7%E9%A1%A7%E5%AE%B6%E4%BA%BA</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E7%85%A7%E9%A1%A7%E5%AE%B6%E4%BA%BA" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E7%85%A7%E9%A1%A7%E5%AE%B6%E4%BA%BA" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/%E7%85%A7%E9%A1%A7%E5%AE%B6%E4%BA%BA" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/%E7%B6%B2%E9%A0%81%E5%8A%A0%E9%80%9F</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E7%B6%B2%E9%A0%81%E5%8A%A0%E9%80%9F" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E7%B6%B2%E9%A0%81%E5%8A%A0%E9%80%9F" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/%E7%B6%B2%E9%A0%81%E5%8A%A0%E9%80%9F" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/%E7%BE%8E%E9%A3%9F</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E7%BE%8E%E9%A3%9F" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E7%BE%8E%E9%A3%9F" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/%E7%BE%8E%E9%A3%9F" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/%E8%A3%B8%E8%BE%AD</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E8%A3%B8%E8%BE%AD" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E8%A3%B8%E8%BE%AD" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/%E8%A3%B8%E8%BE%AD" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/%E8%BE%AD%E8%81%B7%E6%80%9D%E8%80%83</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E8%BE%AD%E8%81%B7%E6%80%9D%E8%80%83" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E8%BE%AD%E8%81%B7%E6%80%9D%E8%80%83" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/%E8%BE%AD%E8%81%B7%E6%80%9D%E8%80%83" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/%E9%82%8A%E7%B7%A3%E7%AF%80%E9%BB%9E</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E9%82%8A%E7%B7%A3%E7%AF%80%E9%BB%9E" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/%E9%82%8A%E7%B7%A3%E7%AF%80%E9%BB%9E" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/%E9%82%8A%E7%B7%A3%E7%AF%80%E9%BB%9E" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/3%20Days%202%20Nights%20in%20Macau</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/3%20Days%202%20Nights%20in%20Macau" hreflang="en-US" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/3%20Days%202%20Nights%20in%20Macau" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/3%20Days%202%20Nights%20in%20Macau" hreflang="zh-TW" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/Birthday%20Celebration</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/Birthday%20Celebration" hreflang="en-US" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Birthday%20Celebration" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Birthday%20Celebration" hreflang="zh-TW" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/Caring%20for%20Family</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/Caring%20for%20Family" hreflang="en-US" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Caring%20for%20Family" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Caring%20for%20Family" hreflang="zh-TW" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/CDN%20%E5%84%AA%E5%8B%A2</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/CDN%20%E5%84%AA%E5%8B%A2" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/CDN%20%E5%84%AA%E5%8B%A2" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/CDN%20%E5%84%AA%E5%8B%A2" hreflang="en-US" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/CDN%20advantages</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/CDN%20advantages" hreflang="en-US" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/CDN%20advantages" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/CDN%20advantages" hreflang="zh-TW" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/Chu-yu</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/Chu-yu" hreflang="en-US" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Chu-yu" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Chu-yu" hreflang="zh-TW" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/Content%20Delivery%20Network</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/Content%20Delivery%20Network" hreflang="en-US" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Content%20Delivery%20Network" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Content%20Delivery%20Network" hreflang="zh-TW" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/Edge%20nodes</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/Edge%20nodes" hreflang="en-US" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Edge%20nodes" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Edge%20nodes" hreflang="zh-TW" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/Family%20Health</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/Family%20Health" hreflang="en-US" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Family%20Health" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Family%20Health" hreflang="zh-TW" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/Food</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/Food" hreflang="en-US" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Food" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Food" hreflang="zh-TW" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/Japanese%20Cuisine</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/Japanese%20Cuisine" hreflang="en-US" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Japanese%20Cuisine" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Japanese%20Cuisine" hreflang="zh-TW" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/Macau%20Casino%20Experience</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/Macau%20Casino%20Experience" hreflang="en-US" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Macau%20Casino%20Experience" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Macau%20Casino%20Experience" hreflang="zh-TW" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/Macau%20Flash%20Travel</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/Macau%20Flash%20Travel" hreflang="en-US" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Macau%20Flash%20Travel" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Macau%20Flash%20Travel" hreflang="zh-TW" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/Macau%20Food</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/Macau%20Food" hreflang="en-US" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Macau%20Food" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Macau%20Food" hreflang="zh-TW" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/Macau%20Travel</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/Macau%20Travel" hreflang="en-US" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Macau%20Travel" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Macau%20Travel" hreflang="zh-TW" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/Omakase</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/Omakase" hreflang="en-US" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Omakase" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Omakase" hreflang="zh-TW" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/Personal%20Growth</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/Personal%20Growth" hreflang="en-US" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Personal%20Growth" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Personal%20Growth" hreflang="zh-TW" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/Resignation%20Experience</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/Resignation%20Experience" hreflang="en-US" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Resignation%20Experience" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Resignation%20Experience" hreflang="zh-TW" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/Resignation%20Reflection</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/Resignation%20Reflection" hreflang="en-US" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Resignation%20Reflection" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Resignation%20Reflection" hreflang="zh-TW" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/Ruins%20of%20St.%20Paul%26</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/Ruins%20of%20St.%20Paul%26" hreflang="en-US" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Ruins%20of%20St.%20Paul%26" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Ruins%20of%20St.%20Paul%26" hreflang="zh-TW" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/Server%20stability</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/Server%20stability" hreflang="en-US" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Server%20stability" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Server%20stability" hreflang="zh-TW" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/Studio%20City%20Macau</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/Studio%20City%20Macau" hreflang="en-US" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Studio%20City%20Macau" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Studio%20City%20Macau" hreflang="zh-TW" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/Web%20acceleration</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/Web%20acceleration" hreflang="en-US" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Web%20acceleration" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Web%20acceleration" hreflang="zh-TW" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tag/Work-Life%20Balance</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tag/Work-Life%20Balance" hreflang="en-US" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Work-Life%20Balance" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tag/Work-Life%20Balance" hreflang="zh-TW" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/food/2023/06/11/chu-yu-omakase</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/food/2023/06/11/chu-yu-omakase" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/food/2023/06/11/chu-yu-omakase" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/food/2023/06/11/chu-yu-omakase" hreflang="en-US" />
+        <image:image>
+            <image:loc>https://scontent.ftpe14-1.fna.fbcdn.net/v/t39.30808-6/306085164_608610030967634_3901678845169237441_n.jpg?_nc_cat=106&amp;amp;ccb=1-7&amp;amp;_nc_sid=6ee11a&amp;amp;_nc_ohc=vwdLq4CScFEQ7kNvgGsEwgM&amp;amp;_nc_ht=scontent.ftpe14-1.fna&amp;amp;oh=00_AYDh52z3LSEPN5Fv3Q5DjR9nYw6-eC8ZS3Rq1f0NzW8yLA&amp;amp;oe=66D34150</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/06/11/01.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/06/11/02.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/06/11/03.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/06/11/04.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/06/11/05.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/06/11/06.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/06/11/07.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/06/11/08.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/06/11/09.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/06/11/10.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/06/11/11.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/06/11/12.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/06/11/13.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/06/11/14.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/06/11/15.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/06/11/16.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/06/11/17.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/06/11/18.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/06/11/19.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/06/11/20.jpg</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/note/2024/08/14/family-first-decision</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/note/2024/08/14/family-first-decision" hreflang="en-US" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/note/2024/08/14/family-first-decision" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/note/2024/08/14/family-first-decision" hreflang="zh-TW" />
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/tech-dev/2024/08/26/cdn-content-delivery-network</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tech-dev/2024/08/26/cdn-content-delivery-network" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/tech-dev/2024/08/26/cdn-content-delivery-network" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/tech-dev/2024/08/26/cdn-content-delivery-network" hreflang="en-US" />
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2024/08/26/01.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2024/08/26/02.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2024/08/26/03.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2024/08/26/04.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2024/08/26/05.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2024/08/26/06.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2024/08/26/07.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2024/08/26/08.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2024/08/26/09.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2024/08/26/10.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2024/08/26/11.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2024/08/26/12.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2024/08/26/13.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2024/08/26/14.png</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2024/08/26/15.png</image:loc>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://www.lucas-chen.website/travel/2023/11/23/trip-to-macau</loc>
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/travel/2023/11/23/trip-to-macau" hreflang="x-default" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/travel/2023/11/23/trip-to-macau" hreflang="zh-TW" />
+        <xhtml:link rel="alternate" href="https://www.lucas-chen.website/en/travel/2023/11/23/trip-to-macau" hreflang="en-US" />
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/11/23/01.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/11/23/02.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/11/23/03.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/11/23/04.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/11/23/05.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/11/23/06.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/11/23/07.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/11/23/1294217.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/11/23/09.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/11/23/11.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/11/23/12.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/11/23/13.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/11/23/1294222.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/11/23/10.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/11/23/14.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/11/23/22.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/11/23/15.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/11/23/16.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/11/23/21.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/11/23/23.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/11/23/24.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/11/23/25.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/11/23/18.jpg</image:loc>
+        </image:image>
+        <image:image>
+            <image:loc>https://cdn.lucas-chen.website/2023/11/23/19.jpg</image:loc>
+        </image:image>
+    </url>
+</urlset>
+<!-- XML Sitemap generated by @nuxtjs/sitemap v7.6.0 at 2026-03-24T06:06:53.602Z -->
