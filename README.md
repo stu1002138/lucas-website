@@ -11,66 +11,83 @@
 ## 常用指令
 
 ```bash
-bun install          # 安裝相依套件
-bun run dev          # 啟動開發伺服器（http://localhost:3000）
-bun run generate     # 靜態生成（輸出至 .output/public）
-bun run preview      # 本地預覽生產版本
-bun run deploy       # 部署至 GitHub Pages
-bun run new-post     # 互動式新增文章
+bun install                 # 安裝相依套件
+bun run dev                 # 啟動開發伺服器（http://localhost:3000）
+bun run generate            # 靜態生成（輸出至 .output/public）
+bun run preview             # 本地預覽生產版本
+bun run deploy              # 部署至 GitHub Pages
+bun run publish <slug>      # 一鍵發布草稿文章
 ```
 
 ---
 
 ## 新增文章流程
 
-### 1. 執行腳本
+### 1. 建立草稿資料夾
 
-```bash
-bun run new-post
-```
-
-腳本會依序詢問：
-
-| 問題 | 說明 |
-|------|------|
-| Category | `tech-dev` / `travel` / `food` / `note` |
-| Slug | 英文小寫 + 連字號，例如 `my-first-post` |
-| Chinese title | 文章中文標題 |
-| English title | 文章英文標題 |
-| Chinese description | 中文摘要（用於 SEO） |
-| English description | 英文摘要（用於 SEO） |
-| Keywords | 逗號分隔，例如 `Vue 3, Nuxt, 技術` |
-| Has images? | `y` 或 `n` |
-| Post date | 格式 `YYYY-MM-DD`，直接 Enter 使用當天日期 |
-
-腳本會建立：
-- `content/{category}/{year}/{month}/{day}/{slug}.md`（中文）
-- `content/en/{category}/{year}/{month}/{day}/{slug}.md`（英文）
-- `public/img/posts/{year}/{month}/{day}/`（有圖片時）
-
-### 2. 新增圖片（若有）
-
-將圖片放入腳本建立的資料夾，例如：
+在 `drafts/` 下建立以 slug 命名的資料夾，slug 即為文章的 URL 路徑：
 
 ```
-public/img/posts/2024/06/15/
-├── 01.jpg
-├── 02.jpg
-└── 03.jpg
+drafts/
+  my-article-slug/
+    post.md        ← 唯一需要編輯的檔案
+    01.jpg         ← 圖片直接放這裡（非必要）
+    02.jpg
 ```
 
-在 markdown 中引用：
+### 2. 編輯 post.md
+
+複製 `drafts/_template/post.md` 作為起點：
 
 ```markdown
-![圖片說明](/img/posts/2024/06/15/01.jpg)
+---
+category: tech-dev
+date: 2026-03-25
+keywords: [Vue 3, Nuxt 3, TypeScript]
+title_zh: 中文標題
+title_en: English Title
+description_zh: 中文摘要，用於 SEO 顯示。
+description_en: English description for SEO.
+---
+
+<!-- zh:start -->
+
+中文內容...
+
+![圖片說明](01.jpg)
+
+<!-- zh:end -->
+
+<!-- en:start -->
+
+English content...
+
+![Image description](01.jpg)
+
+<!-- en:end -->
 ```
 
-> 圖片由 `@nuxt/image` 自動最佳化，無需手動壓縮。
+| 欄位 | 說明 |
+|------|------|
+| `category` | `tech-dev` / `travel` / `food` / `note` |
+| `date` | 格式 `YYYY-MM-DD` |
+| `keywords` | 陣列格式，例如 `[Vue 3, Nuxt 3]` |
+| `title_zh` / `title_en` | 中英文標題 |
+| `description_zh` / `description_en` | 中英文摘要（SEO 用） |
 
-### 3. 撰寫內容
+圖片只需寫**檔名**（如 `01.jpg`），腳本會自動轉換為正確的絕對路徑。
 
-- 中英文各寫一份（內容可不同，語氣可依語系調整）
-- 圖片路徑使用絕對路徑 `/img/posts/...`
+### 3. 一鍵發布
+
+```bash
+bun run publish my-article-slug
+```
+
+腳本自動完成：
+- 圖片複製至 `public/img/posts/{date}/`
+- 圖片路徑轉換（`01.jpg` → `/img/posts/.../01.jpg`）
+- 產生 `content/{category}/{date}/{slug}.md`（中文）
+- 產生 `content/en/{category}/{date}/{slug}.md`（英文）
 
 ### 4. 本地預覽
 
@@ -78,7 +95,7 @@ public/img/posts/2024/06/15/
 bun run dev
 ```
 
-開啟 http://localhost:3000 確認文章顯示正常。
+開啟 http://localhost:3000 確認文章顯示正常，即可進行部署。
 
 ---
 
@@ -93,7 +110,7 @@ bun run deploy     # 部署至 GitHub Pages
 
 ### 清除快取後的流程
 
-若清除了 `.nuxt` 資料夾，需先 prepare 否則 prerender 只會產出 4 個路由：
+若清除了 `.nuxt` 資料夾，需先 prepare，否則 prerender 只會產出 4 個路由：
 
 ```bash
 bunx nuxt prepare  # 重建 .nuxt 型別與設定
@@ -118,6 +135,7 @@ bun run deploy     # 部署
 | `generate` 只產出 4 個路由 | 清除 `.nuxt` 後未重建型別 | 先執行 `bunx nuxt prepare` |
 | `generate` 出現 `write EPIPE` | esbuild 被系統 OOM kill | 關閉其他耗記憶體程式，重試 |
 | 部署後顯示 GitHub 404 | `public/CNAME` 內容錯誤 | 確認 CNAME 只有一行 `www.lucas-chen.website` |
+| 更新圖片後畫面未變 | IPX 快取殘留 | 刪除 `.output/public/_ipx` 後重新 generate |
 
 ---
 
@@ -125,7 +143,7 @@ bun run deploy     # 部署
 
 | 類型 | 路徑 |
 |------|------|
-| 文章圖片（新） | `public/img/posts/{year}/{month}/{day}/` |
+| 文章圖片 | `public/img/posts/{year}/{month}/{day}/` |
 | Logo / 頭像等 | `public/img/` |
 
-> 舊文章圖片已從外部 CDN 遷移至 `public/img/posts/`，統一使用本地路徑。
+> 圖片由 `@nuxt/image` 自動最佳化，無需手動壓縮。
